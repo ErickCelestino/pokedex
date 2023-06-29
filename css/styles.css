@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+@import url('./reset.css');
+@import url('./pokedex.css');
+@import url('./pokemon.css');
+
+:root {
+    --number-color: #aaa;
+    --text-color: #3a444d;
+    --border-color: #333;
+    --box-shadow-color: #888;
+    --button-background: #444;
+    --box-shadow-button: #222;
+    --black: #000;
+    --white: #FFF;
+    --blue: #5ab7f5;
+}
+
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, var(--), var(--white));
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
